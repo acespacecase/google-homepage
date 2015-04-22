@@ -1,0 +1,93 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10pt;
+	color: #444444;
+	margin: 0; padding: 0;
+}
+
+.maincontent {
+	height: 300px; width: 488px;
+	margin: auto;
+	position: relative; top: 75px;
+	text-align: center;
+	display: block;
+}
+
+.maincontent a {text-decoration: none; color:#1122cc;}
+
+input {
+	margin: 20px 0 0 0;
+	width: 99%;
+	height: 25px;
+}
+
+button {
+	margin: 12px 5px;
+	background-color: #f4f4f4;
+	border: 1pt solid #d8d8d8;
+	padding: 8px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #444444;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.topnav {
+	position:absolute; top:0px;
+	width: 100%;
+}
+
+.topnav ul {
+	float: right;
+	margin-right: 15px;
+	vertical-align: baseline;
+	float: right;
+}
+
+.topnav li {
+	float: left;
+	margin: 7px 10px;
+}
+
+.icon {
+	vertical-align: middle;
+	border-radius: 100%;
+	position: relative; top:-7px;
+}
+
+.footernav {
+	width: 100%;
+	margin: 0;
+	padding:0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: fixed; bottom: 0;
+}
+
+.footerleft ul {
+	float: left;
+	margin-left: -25px;
+}
+
+.footerright ul {
+	float: right;
+	margin-right: 10px;
+}
+
+.footerleft li, .footerright li {
+	float: left;
+	margin: 0 10px;
+}
+
+ul, li a {text-decoration: none; color: #444;}
+ul, li a:hover {text-decoration: underline;}
+ul, li {list-style-type: none;}
